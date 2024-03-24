@@ -16,14 +16,14 @@ function MyApp({ Component, pageProps }) {
           crossOrigin="anonymous"></script>
         <script src="https://cdn.tailwindcss.com"></script>
         {/* Google Analytics 脚本 */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RG2M8T1Y3L"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RVT6Z98MBT"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', 'G-RG2M8T1Y3L');
+        gtag('config', 'G-RVT6Z98MBT');
       `,
           }}
         />

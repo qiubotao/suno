@@ -7,7 +7,7 @@ export default async function handler(req, res) {
     try {
       const response = await fetch("https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-2", {
         headers: {
-          Authorization: "Bearer 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",
+          Authorization: "Bearer $token",
           'Content-Type': 'application/json'
         },
         method: "POST",
