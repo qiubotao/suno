@@ -30,9 +30,9 @@ function MyApp({ Component, pageProps }) {
 
 
         {/* 这里可以放置全局的广告 HTML 代码或其他头部信息 */}
-        <title>AI SORA TECH</title>
-        <meta name="description" content="SORA revolutionizes content creation with cutting-edge video generation technologies, transforming text and images into dynamic videos, and enabling video-to-video creation. Explore the future of digital storytelling with SORA." />
-        <meta name="keywords" content="SORA, Video Generation, Text to Video, Image to Video, Video to Video, Digital Storytelling, Content Creation, Video Technology" />
+        <title>SUNO AI TECH</title>
+        <meta name="description" content="Suno" />
+        <meta name="keywords" content="SUNO, Song Generation, Text to Music, Content Creation, Music Technology" />
         {/* 其他全局的标签 */}
 
 

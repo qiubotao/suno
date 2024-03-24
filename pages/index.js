@@ -36,7 +36,7 @@ export default function HomeSection() {
   return (
     <section>
       <Head>
-        <link rel="canonical" href="https://aisoratech.com/" />
+        <link rel="canonical" href="https://sunoai.tech/" />
       </Head>
       <Navbar />
       <div className="relative mx-auto flex w-full max-w-[1120px] flex-col items-start px-5 py-16 md:px-10 md:py-24 lg:py-32">
