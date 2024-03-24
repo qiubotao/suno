@@ -1,0 +1,105 @@
+/* FaqSection.module.css */
+.container {
+  max-width: 7xl;
+  padding: 2rem 1rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.textDiv {
+  max-width: 800px;
+  padding: 1.5rem;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.25rem; /* tailwind class: text-4xl */
+  font-weight: bold;
+  color: black;
+}
+
+.description {
+  margin-top: 1rem;
+  max-width: 600px;
+  font-size: 1rem;
+  color: #71717A;
+  font-weight: light;
+}
+
+.faqs {
+  margin-top: 2.5rem;
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+}
+
+.faqBlock {
+  margin: 1rem 0;
+  border: 1px solid #CDCDCD;
+  padding: 2rem;
+  border-radius: 0.375rem; /* tailwind class: rounded-md */
+  position: relative;
+}
+
+.faqBlock h2 {
+  font-weight: bold;
+  color: black;
+  font-size: 1.25rem; /* tailwind class: text-xl */
+}
+
+.faqBlock p {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: gray;
+  font-weight: light;
+}
+
+.icon {
+  position: absolute;
+  right: 1.25rem;
+  top: 1.25rem;
+}
+
+.footerText {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #71717A;
+}
+
+.supportLink {
+  color: black;
+  text-decoration: none;
+}
+
+.supportLink:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .container {
+    padding: 4rem 2rem;
+  }
+
+  .textDiv {
+    padding: 2rem;
+  }
+
+  .title {
+    font-size: 3rem; /* tailwind class: text-3xl */
+  }
+
+  .description {
+    max-width: 500px;
+  }
+
+  .faqBlock {
+    padding: 2.5rem;
+  }
+}

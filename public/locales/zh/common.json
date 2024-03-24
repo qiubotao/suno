@@ -1,0 +1,72 @@
+{
+    "aiGenerator":"AI 卡通生成器",
+    "greeting": "你好",
+    "home_q":"什么是AI Cartoon Generator ",
+    "home_desc": "AI Cartoon Generator 是一个创新的在线平台，利用尖端人工智能技术为用户提供独特的图像创作体验。用户只需输入“一只卡通猫”的文本描述，网站的 AI 算法就能生成相应的卡通图像。该服务还允许用户上传自己的图片，并将其转换为卡通风格，增添了趣味性和艺术气息。无论是寻求灵感的设计师、探索创造力的儿童，还是想要将日常图像卡通化的任何人，AI Cartoon Generator 都是完美的工具。    ",
+    "Home": "首页",
+    "Text to Cartoon":"生成卡通图片",
+    "Image Cartoonize" :"图片卡通化",
+    "Terms And Conditions":"条款和条约",
+    "Blog":"博客",
+    "ImageCartoonize_What":"什么是AI图片卡通化?",
+    "ImageCartoonize_What_Desc":"AI图片卡通化是一种使用人工智能技术将普通照片转换成卡通风格的图片的过程。这个过程通常涉及到先进的图像识别和风格转换技术，以创造出独特的、有趣的视觉效果。",
+    "ImageCartoonize_How":"如何使用AI图片卡通化?",
+    "ImageCartoonize_How_Desc":"要使用图片卡通化功能，您只需上传一张图片，然后点击“卡通化”按钮。我们的系统将自动处理您的图片，并生成一个风格化的卡通版本供您预览和下载。",
+    "Generating":"生成中...",
+    "Generate":"生成",
+    "Select File":"选择文件",
+    "SoraTechPage":"生成卡通图片",
+    "ImageCartoonizePage":"图片卡通化",
+
+
+    "SoraTech_What":"什么是AI Sora技术文字转视频？",
+    "SoraTech_What_Desc":"Sora是一种先进的扩散模型，能够生成视频。它从看起来像静态噪声的视频开始，通过多个步骤逐渐去除噪声，生成清晰的视频。Sora能够一次性生成整个视频或延长视频的长度，满足广泛的视频制作需求。    ",
+    "SoraTech_How":"如何使用AI Sora技术文字转视频？",
+    "SoraTech_How_Desc_1":"1.输入：你首先输入一个描述性文本或一个创造性提示到生成器中。",
+    "SoraTech_How_Desc_2":"2.点击“生成”按钮：AI分析你的文本，理解描述的细微差别和元素。",
+    "SoraTech_How_Desc_3":"3.图像生成：基于分析，AI创建一个独特的视频，展现您的文本内容。",
+
+
+
+    
+    "faq_q_1" : "1. 什么是AI Cartoon Generator？",
+    "faq_a_1" : "AI Cartoon Generator是一个先进的在线工具，它使用人工智能技术将您的照片转换成卡通风格的图像。我们的算法精心设计，能够捕捉和转化图片中的细节，以创造出有趣且具有艺术感的卡通图像。",
+    "faq_q_2" : "2. 如何使用AI Cartoon Generator来卡通化我的照片？",
+    "faq_a_2" : "使用AI Cartoon Generator非常简单。首先，上传您想要卡通化的图片。然后，我们的AI工具会自动处理您的图片，并生成卡通风格的图像。处理完成后，您可以预览并下载卡通图像。",
+    "faq_q_3" : "3. 使用AI Cartoon Generator是否安全？我的照片会被保留吗？",
+    "faq_a_3" : "我们重视您的隐私和安全。上传的图片仅用于生成卡通图像，并不会被存储或用于其他目的。一旦卡通化过程完成，图片会从我们的服务器上自动删除。",
+    "faq_q_4" : "4. AI Cartoon Generator适合初学者使用吗？",
+    "faq_a_4" : "是的，AI Cartoon Generator在设计时就考虑到了简洁性，非常适合初学者使用。即使用户没有技术专长，也能轻松上手，像专业人士一样开始编辑，而不需要面对传统编辑软件的复杂性。",
+    "faq_q_5" : "5. 如果我对AI Cartoon Generator的结果不满意，我该怎么办？",
+    "faq_a_5" : "我们致力于不断改进我们的AI算法，以提供高质量的卡通图像。如果您对结果不满意，欢迎通过我们的反馈系统提交意见。我们会考虑您的建议，并努力改进我们的服务。",
+
+
+    "Privacy Policy": "隐私策略",
+
+    "whoWeAre_title": "我们是谁",
+    "whoWeAre_content": "我们的网站是: https://www.aismartimage.com/",
+    "comments_title": "评论",
+    "comments_content_1": "当访客在网站上留下评论时，我们会收集评论表格中显示的数据，以及访客的IP地址和浏览器用户代理字符串，以帮助检测垃圾邮件。",
+    "media_title": "媒体",
+    "media_content": "如果您向网站上传图片，应避免上传包含嵌入位置数据（EXIF GPS）的图片。网站访问者可以下载并提取网站上图片中的任何位置数据。",
+    "cookies_title": "Cookies",
+    "cookies_content_1":"如果您在我们的网站上留下评论，您可以选择将您的姓名、电子邮箱地址和网站地址保存在cookies中。这是为了您的方便，使您在再次评论时不必重新填写这些信息。这些cookies将保存一年。",
+    "cookies_content_2":"如果您访问我们的登录页面，我们将设置一个临时cookie来判断您的浏览器是否接受cookies。这个cookie不包含任何个人数据，在您关闭浏览器时会被丢弃。",
+
+    "content_title":"来自其他网站的嵌入式内容",
+    "content_content_1":"本站的文章可能包括来自其他网站的嵌入式内容（例如视频、图片、文章等）。这些嵌入式内容的行为与访客访问其他网站时完全相同。    ",
+    "content_content_2":"这些网站可能会收集您的数据，使用cookies，嵌入额外的第三方跟踪，并监控您与嵌入式内容的互动，包括如果您有账户并登录到该网站时跟踪您与嵌入式内容的互动。    ",
+    "dataShared_title": "我们与谁共享您的数据    ",
+    "dataShared_content":"如果您请求重置密码，您的IP地址将包含在重置电子邮件中。    ",
+    "howLong_title": "我们保留您的数据多久    ",
+    "howLong_content": "如果您留下评论，评论及其元数据将无限期保留。这样我们可以识别并自动批准任何后续评论，而不是将其保留在审核队列中。    ",
+
+    "rights_title": "您对您的数据拥有哪些权利    ",
+    "rights_content": "如果您在本站有账户，或者留下了评论，您可以要求接收我们持有的关于您的个人数据的导出文件，包括您提供给我们的任何数据。您也可以要求我们删除我们持有的关于您的任何个人数据。这不包括我们因行政、法律或安全目的而有义务保留的任何数据。    ",
+    "dataSend_title": "您的数据发送到哪里    ",
+    "dataSend_content":"访客评论可能会通过自动垃圾邮件检测服务进行检查。 ",
+
+    "Sora" : "Sora",
+    "Playground" : "游乐场",
+    "SoraCollections" : "集锦"
+}
