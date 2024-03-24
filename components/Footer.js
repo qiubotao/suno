@@ -8,7 +8,7 @@ const Footer = () => {
           <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=440120&theme=light" alt="ai sora tech - use open ai sora transform text to video | Product Hunt" style={{ width: '250px', height: '54px' }} width="250" height="54" />
         </a>
       </div> */}
-      <p>&copy; {new Date().getFullYear()} AI Sora Tech</p>
+      <p>&copy; {new Date().getFullYear()} Suno AI Tech</p>
       <p><a href="/">Privacy Policy</a> | <a href="/">Terms of Service</a></p>
       <style jsx>{`
         footer {
