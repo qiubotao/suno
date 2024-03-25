@@ -17,19 +17,19 @@ export default function HomeSection() {
   // 假设这是你的视频卡片数据数组
   const cards = [
     {
-      videoUrl: "tokyo-walk.mp4",
-      title: "tokyo walk ",
-      description: "Prompt: A stylish woman walks down a Tokyo street filled with warm glowing neon and animated city signage. She wears a black leather jacket, a long red dress, and black boots, and carries a black purse. She wears sunglasses and red lipstick. She walks confidently and casually. The street is damp and reflective, creating a mirror effect of the colorful lights. Many pedestrians walk about.    ",
+      videoUrl: "http://www.youtube.com/watch?v=gEwM6VX1ZCM",
+      title: "AI lyric and composition tool： Suno",
+      description: "",
     },
     {
-      videoUrl: "mitten-astronaut.mp4",
-      title: "mitten astronaut",
-      description: "Prompt: A movie trailer featuring the adventures of the 30 year old space man wearing a red wool knitted motorcycle helmet, blue sky, salt desert, cinematic style, shot on 35mm film, vivid colors.    ",
+      videoUrl: "http://www.bilibili.com/video/BV1fK42187TZ/?spm_id_from=333.337.search-card.all.click&vd_source=f268f389e0e0c662588fe51a6ceb4d99",
+      title: "The advanced tutorial of Suno AI",
+      description: "",
     },
     {
-      videoUrl: "big-sur.mp4",
-      title: "Big Sur",
-      description: "Prompt: Drone view of waves crashing against the rugged cliffs along Big Sur’s garay point beach. The crashing blue waters create white-tipped waves, while the golden light of the setting sun illuminates the rocky shore. A small island with a lighthouse sits in the distance, and green shrubbery covers the cliff’s edge. The steep drop from the road down to the beach is a dramatic feat, with the cliff’s edges jutting out over the sea. This is a view that captures the raw beauty of the coast and the rugged landscape of the Pacific Coast Highway.",
+      videoUrl: "http://search.bilibili.com/all?keyword=suno+%E9%9F%B3%E4%B9%90%E4%BA%BA&from_source=webtop_search&spm_id_from=333.788&search_source=5&order=click",
+      title: "How do musicians view Suno?",
+      description: "",
     },
     // 可以添加更多卡片数据...
   ];
@@ -68,18 +68,18 @@ export default function HomeSection() {
       <Image src="/pattern-2.svg" width={600} height={600} alt="" className="absolute bottom-auto left-auto right-0 top-0 -z-10 inline-block max-[479px]:hidden" />
 
 
-      {/* <div className="container mx-auto px-4 mt-10">
+      <div className="container mx-auto px-4 mt-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {cards.map((card, index) => (
             <VideoCard key={index} videoUrl={card.videoUrl} title={card.title} description={card.description} />
           ))}
         </div>
-        <a href="SoraCollections" className="mt-5 flex mr-5 inline-block rounded-xl bg-black px-20 py-4 text-center font-semibold text-white [box-shadow:rgb(19,_83,_254)_6px_6px] md:mr-6">
+        {/* <a href="SoraCollections" className="mt-5 flex mr-5 inline-block rounded-xl bg-black px-20 py-4 text-center font-semibold text-white [box-shadow:rgb(19,_83,_254)_6px_6px] md:mr-6">
           Read More
 
-        </a>
+        </a> */}
 
-      </div> */}
+      </div>
 
       <Analytics />
       {/* <FaqSection /> */}
