@@ -17,17 +17,21 @@ export default function HomeSection() {
   // 假设这是你的视频卡片数据数组
   const cards = [
     {
-      videoUrl: "http://www.youtube.com/watch?v=gEwM6VX1ZCM",
+      imageUrl: "/blog/suno1.jpg",
+      pageUrl:"http://www.youtube.com/watch?v=gEwM6VX1ZCM",
       title: "AI lyric and composition tool： Suno",
       description: "",
     },
     {
-      videoUrl: "http://www.bilibili.com/video/BV1fK42187TZ/?spm_id_from=333.337.search-card.all.click&vd_source=f268f389e0e0c662588fe51a6ceb4d99",
+
+      imageUrl: "/blog/suno2.jpg",
+      pageUrl: "http://www.bilibili.com/video/BV1fK42187TZ/?spm_id_from=333.337.search-card.all.click&vd_source=f268f389e0e0c662588fe51a6ceb4d99",
       title: "The advanced tutorial of Suno AI",
       description: "",
     },
     {
-      videoUrl: "http://search.bilibili.com/all?keyword=suno+%E9%9F%B3%E4%B9%90%E4%BA%BA&from_source=webtop_search&spm_id_from=333.788&search_source=5&order=click",
+      imageUrl: "/blog/suno3.jpg",
+      pageUrl: "https://www.youtube.com/watch?v=JCBc3-SNNUY",
       title: "How do musicians view Suno?",
       description: "",
     },
@@ -71,7 +75,7 @@ export default function HomeSection() {
       <div className="container mx-auto px-4 mt-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {cards.map((card, index) => (
-            <VideoCard key={index} videoUrl={card.videoUrl} title={card.title} description={card.description} />
+            <VideoCard key={index} imageUrl={card.imageUrl} pageUrl = {card.pageUrl} title={card.title} description={card.description} />
           ))}
         </div>
         {/* <a href="SoraCollections" className="mt-5 flex mr-5 inline-block rounded-xl bg-black px-20 py-4 text-center font-semibold text-white [box-shadow:rgb(19,_83,_254)_6px_6px] md:mr-6">
